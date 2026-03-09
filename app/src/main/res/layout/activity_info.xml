@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:text="📖 Kako skinuti podatke?"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#262626"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Korak 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+            <TextView
+                android:text="1"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/circle_bg"
+                android:gravity="center"
+                android:layout_width="32dp"
+                android:layout_height="32dp"/>
+            <TextView
+                android:text="Idi na Instagram profil i klikni na ☰ (gore desno)"
+                android:textSize="15sp"
+                android:textColor="#262626"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="12dp"/>
+        </LinearLayout>
+
+        <!-- Korak 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+            <TextView
+                android:text="2"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/circle_bg"
+                android:gravity="center"
+                android:layout_width="32dp"
+                android:layout_height="32dp"/>
+            <TextView
+                android:text="Klikni na Settings (Postavke)"
+                android:textSize="15sp"
+                android:textColor="#262626"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="12dp"/>
+        </LinearLayout>
+
+        <!-- Korak 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+            <TextView
+                android:text="3"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/circle_bg"
+                android:gravity="center"
+                android:layout_width="32dp"
+                android:layout_height="32dp"/>
+            <TextView
+                android:text="Klikni na Accounts Centre"
+                android:textSize="15sp"
+                android:textColor="#262626"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="12dp"/>
+        </LinearLayout>
+
+        <!-- Korak 4 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+            <TextView
+                android:text="4"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/circle_bg"
+                android:gravity="center"
+                android:layout_width="32dp"
+                android:layout_height="32dp"/>
+            <TextView
+                android:text="Your information and permissions"
+                android:textSize="15sp"
+                android:textColor="#262626"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="12dp"/>
+        </LinearLayout>
+
+        <!-- Korak 5 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+            <TextView
+                android:text="5"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/circle_bg"
+                android:gravity="center"
+                android:layout_width="32dp"
+                android:layout_height="32dp"/>
+            <TextView
+                android:text="Export your information"
+                android:textSize="15sp"
+                android:textColor="#262626"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="12dp"/>
+        </LinearLayout>
+
+        <!-- Korak 6 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+            <TextView
+                android:text="6"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/circle_bg"
+                android:gravity="center"
+                android:layout_width="32dp"
+                android:layout_height="32dp"/>
+            <TextView
+                android:text="Create export → Export to device"
+                android:textSize="15sp"
+                android:textColor="#262626"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="12dp"/>
+        </LinearLayout>
+
+        <!-- Korak 7 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+            <TextView
+                android:text="7"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/circle_bg"
+                android:gravity="center"
+                android:layout_width="32dp"
+                android:layout_height="32dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="12dp">
+                <TextView
+                    android:text="Customize information:"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#262626"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="• Deselect sve opcije"
+                    android:textSize="14sp"
+                    android:textColor="#555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="• Selektuj samo: Followers i Following"
+                    android:textSize="14sp"
+                    android:textColor="#3897F0"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Korak 8 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+            <TextView
+                android:text="8"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/circle_bg"
+                android:gravity="center"
+                android:layout_width="32dp"
+                android:layout_height="32dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="12dp">
+                <TextView
+                    android:text="Podesi opcije:"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#262626"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="• Date range: All time"
+                    android:textSize="14sp"
+                    android:textColor="#555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="• Format: JSON"
+                    android:textSize="14sp"
+                    android:textColor="#555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Korak 9 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:text="9"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/circle_bg"
+                android:gravity="center"
+                android:layout_width="32dp"
+                android:layout_height="32dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="12dp">
+                <TextView
+                    android:text="Klikni Start Export"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#262626"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="Za par minuta dobiješ email notifikaciju. Idi na Export your information → preuzmi ZIP fajl."
+                    android:textSize="14sp"
+                    android:textColor="#555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Info box -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E8F4FD"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:text="📦 Šta uraditi sa ZIP fajlom?"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#1A73E8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"/>
+            <TextView
+                android:text="1. Raspakuj ZIP fajl\n2. Pronađi folder instagram-ime-vaseg-profila\n3. Uploaduj cijeli ZIP fajl u app\n4. App automatski pronađe followers i following!"
+                android:textSize="14sp"
+                android:textColor="#262626"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:text="← Nazad"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3897F0"/>
+
+    </LinearLayout>
+</ScrollView>
