@@ -31,3 +31,14 @@ The app loads your Instagram ZIP export and displays a list of users you follow 
 - RecyclerView and Adapter pattern
 - Multi-screen navigation with Intents
 - Publishing an Android project to GitHub
+
+  # Kako izgleda aplikacija
+
+### Početni ekran
+![Pocetni](1000015065.jpg)
+
+### Rad aplikacije
+![Rad](1000015064.jpg)
+
+### Rezultat
+![Rezultat](1000015063.jpg)
